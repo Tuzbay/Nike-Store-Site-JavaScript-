@@ -470,6 +470,11 @@ footer {
     padding: 5px;
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+.fButton:hover {
+    background-color: rgb(75, 74, 74);
 }
 
 .fIcons {
@@ -489,3 +494,271 @@ footer {
 
 
 /* ! FOOTER END ! */
+
+
+/* ! RESPONSIVE START ! */
+
+
+@media screen and (max-width: 1250px) {
+    .slider {
+        clip-path: none
+    }
+
+    .product {
+        clip-path: none;
+    }
+
+    .slider {
+        clip-path: none
+    }
+
+    .sliderImg {
+        width: 90%;
+    }
+
+    .sliderBg {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .sliderPrice {
+        top: unset;
+        bottom: 100px;
+        left: 250px;
+        background-color: lightgray;
+    }
+
+    .sliderTitle {
+        display: none;
+    }
+
+    .buyButton {
+        top: 30%;
+        right: 140px;
+    }
+
+
+    .gallery {
+        display: none;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productPrice {
+        margin: 0;
+    }
+
+    .productDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .productTitle {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .slider {
+        clip-path: none
+    }
+
+    .sliderImg {
+        width: 90%;
+    }
+
+    .sliderBg {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .fButton {
+        width: 80%;
+    }
+
+    .slider {
+        clip-path: none
+    }
+
+    .sliderImg {
+        width: 80% !important;
+    }
+
+    .sliderBg {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .sliderPrice {
+        left: 100px !important;
+        bottom: 50px !important;
+    }
+
+    .buyButton {
+        top: 30%;
+        right: 50px !important;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .features {
+        flex-direction: column !important;
+    }
+
+    .sliderPrice {
+        bottom: 30px !important;
+        font-size: 46px;
+    }
+
+    .buyButton {
+        right: 30px !important;
+        font-size: 26px;
+    }
+
+    .search {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 20px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .navBottom {
+        flex-wrap: wrap;
+
+    }
+
+    .menuItem {
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .slider {
+        clip-path: none
+    }
+
+    .sliderImg {
+        width: 90%;
+    }
+
+    .sliderBg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sliderTitle {
+        display: none;
+    }
+
+    .sliderPrice {
+        top: unset;
+        bottom: -52px;
+        left: -1px;
+        background-color: lightgray;
+    }
+
+    .buyButton {
+        top: 0;
+        right: 0;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .product {
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productImg {
+        width: 80%;
+    }
+
+    .productDetails {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+
+    .productTitle {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .newSeason {
+        flex-direction: column;
+    }
+
+    .nsItem:nth-child(2) {
+        padding: 50px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footerRight {
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .payment {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+
+
+/* ! RESPONSIVE END ! */
